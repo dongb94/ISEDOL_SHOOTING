@@ -7,7 +7,7 @@ public class BootStrap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("test");
+        GameObject.Find("Gosegu").AddComponent<Gosegu>();
     }
 
     // Update is called once per frame
