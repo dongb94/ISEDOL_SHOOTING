@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class BootStrap : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        GameObject.Find("Gosegu").AddComponent<Gosegu>();
-    }
+	// Start is called before the first frame update
+	void Start()
+	{
+		GameObject.Find("Gosegu").AddComponent<Gosegu>();
+	}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+	// Update is called once per frame
+	void Update()
+	{
+		
+	}
 }
